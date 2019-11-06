@@ -1,0 +1,20 @@
+{
+  "name": "regexfn",
+  "version": "1.0.0",
+  "description": "It has buildin regex functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "regularexpressions",
+    "regular",
+    "expressions",
+    "regular",
+    "expression",
+    "regex",
+    "regexfunctions"
+  ],
+  "author": "Jeyaprakash",
+  "license": "ISC"
+}
