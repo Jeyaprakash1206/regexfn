@@ -6,6 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeyaprakash1206/regexfn.git"
+  },
+  "author": "Jeyaprakash",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeyaprakash1206/regexfn/issues"
+  },
+  "homepage": "https://github.com/Jeyaprakash1206/regexfn#readme",
   "keywords": [
     "regularexpressions",
     "regular",
@@ -14,7 +24,5 @@
     "expression",
     "regex",
     "regexfunctions"
-  ],
-  "author": "Jeyaprakash",
-  "license": "ISC"
+  ]
 }
