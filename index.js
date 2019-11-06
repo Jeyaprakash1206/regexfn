@@ -38,10 +38,15 @@ const isGUID = (val) => {
     const regex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-5][0-9a-f]{3}-[089ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
     return regex.test(val)
 }
+const isAmount = (val) => {
+    const regex = /^\d+(\.\d{1,2})?$/;
+    return regex.test(val)
+}
 module.exports = {
 isEmail,
 isLetterOnly,
 isNumberOnly,
 isPhoneNumber,
-isGUID
+isGUID,
+isAmount
 };   
