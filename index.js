@@ -6,7 +6,7 @@ const basicvalidation = (val) => {
         return true;
     }
 }
-const emailvalidation = (val) => {
+const isEmail = (val) => {
     if (basicvalidation(val)) {
         if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(val)) {
             return (true)
@@ -43,6 +43,5 @@ emailvalidation,
 isLetterOnly,
 isNumberOnly,
 isPhoneNumber,
-regex,
 isGUID
 };   
