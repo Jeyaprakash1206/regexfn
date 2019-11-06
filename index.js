@@ -39,7 +39,7 @@ const isGUID = (val) => {
     return regex.test(val)
 }
 module.exports = {
-emailvalidation,
+isEmail,
 isLetterOnly,
 isNumberOnly,
 isPhoneNumber,
