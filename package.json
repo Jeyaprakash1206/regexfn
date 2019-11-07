@@ -1,6 +1,6 @@
 {
   "name": "regexfn",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "It has buildin regex functions",
   "main": "index.js",
   "scripts": {

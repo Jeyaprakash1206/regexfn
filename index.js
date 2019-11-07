@@ -42,11 +42,37 @@ const isAmount = (val) => {
     const regex = /^\d+(\.\d{1,2})?$/;
     return regex.test(val)
 }
+const is_usZipCode = (val) => {
+    regexp = /^[0-9]{5}(?:-[0-9]{4})?$/;
+  
+    if (regexp.test(val))
+      {
+        return true;
+      }
+    else
+      {
+        return false;
+      }
+}
+const is_socialSecurity_Number = (val) => {
+    regexp = /^(?!000|666)[0-8][0-9]{2}-(?!00)[0-9]{2}-(?!0000)[0-9]{4}$/;
+  
+    if (regexp.test(val))
+      {
+        return true;
+      }
+    else
+      {
+        return false;
+      }
+}
 module.exports = {
 isEmail,
 isLetterOnly,
 isNumberOnly,
 isPhoneNumber,
 isGUID,
-isAmount
+isAmount,
+is_usZipCode,
+is_socialSecurity_Number
 };   

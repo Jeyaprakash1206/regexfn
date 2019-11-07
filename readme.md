@@ -43,3 +43,19 @@ console.log(regex.isGUID("5F72B1E0-BC6D-4BDE-ABD4-3A78AFCADEFC"));
 const regex = require('regexfn');
 console.log(regex.isAmount("11.05"));
 ```
+
+##US Zip Validation
+
+```
+const regex = require('regexfn');
+console.log(regex.is_usZipCode("03201-2150"));
+console.log(regex.is_usZipCode("03201"));
+```
+
+##SSN Validation
+
+```
+const regex = require('regexfn');
+console.log(regex.is_socialSecurity_Number("019-90-5680"));
+console.log(regex.is_socialSecurity_Number("K8V-3Y1"));
+```
